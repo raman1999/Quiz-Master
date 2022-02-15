@@ -1,0 +1,12 @@
+.category-heading{
+    color:var(--theme1);
+    margin-left:2.5rem;
+    margin-top:5rem;
+}
+.category-component{
+    margin:2rem auto;
+}
+.top-heading{
+    font-family: "Abril Fatface", cursive;
+    letter-spacing: 5px;
+}
