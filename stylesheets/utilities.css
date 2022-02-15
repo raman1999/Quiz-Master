@@ -1,0 +1,36 @@
+.txt-theme-1 {
+  color: var(--theme1);
+}
+.txt-theme-2 {
+  color: var(--theme2);
+}
+.txt-theme-3 {
+  color: var(--theme3);
+}
+.txt-theme-4 {
+  color: var(--theme4);
+}
+.txt-theme-5 {
+  color: var(--theme5);
+}
+.txt-theme-6 {
+  color: var(--theme6);
+}
+.txt-theme-7 {
+  color: var(--theme7);
+}
+.txt-theme-8 {
+  color: var(--theme8);
+}
+.txt-theme-9 {
+  color: var(--theme9);
+}
+.l-sp-3{
+  letter-spacing: 3px;
+}
+.l-sp-2{
+  letter-spacing: 2px;
+}
+.l-sp-1{
+  letter-spacing: 1px;
+}
