@@ -1,0 +1,20 @@
+@import url(/stylesheets/main.css);
+@import url("../questions/question.css");
+.question-container{
+    margin-top: 3rem;
+}
+.heading-container{
+    width:50vw;
+    margin:2rem auto;
+    padding:2rem;
+    border-bottom: 1px solid var(--theme1);
+}
+.correct-ans{
+    background-color: var(--bgSuccess);
+}
+.wrong-ans{
+    background-color: var(--bgFailure);
+}
+.flex-box{
+    justify-content: space-between;
+}
