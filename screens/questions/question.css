@@ -1,3 +1,5 @@
+@import url(/stylesheets/main.css);
+
 .question-component {
   width: fit-content;
   margin: 3rem auto;
