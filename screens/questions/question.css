@@ -1,0 +1,22 @@
+@import url(/stylesheets/main.css);
+
+.question-component {
+  width: fit-content;
+  margin: 3rem auto;
+  padding: 2rem;
+}
+
+.list-stacked > .list-item {
+  margin: 1rem auto;
+  width: 21rem;
+  max-width: 30rem;
+}
+.question-container {
+  margin-top: 1rem;
+}
+
+.question-btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
