@@ -25,6 +25,12 @@
 .txt-theme-9 {
   color: var(--theme9);
 }
+.txt-bgColor{
+  color:var(--bg-color)
+}
+.bgColor{
+  background-color: var(--bg-color);
+}
 .l-sp-3{
   letter-spacing: 3px;
 }
