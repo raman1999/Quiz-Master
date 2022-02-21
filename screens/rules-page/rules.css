@@ -1,0 +1,24 @@
+.list-item {
+  border: none;
+}
+.rules-container {
+  background-color: var(--rules-bg);
+  border: 1px solid var(--theme1);
+  width: fit-content;
+  margin: 6rem auto;
+  padding: 3rem;
+}
+.rules-list {
+  color: var(--theme1);
+  justify-content: center;
+  align-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.rules-btn-container {
+  display: flex;
+  justify-content: space-around;
+}
+.btn {
+  padding: 1rem;
+}
