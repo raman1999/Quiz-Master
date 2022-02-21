@@ -27,12 +27,28 @@ body,
   background-color: var(--bg-color);
   color: var(--theme6);
 }
+
 .nav {
   border-color: var(--bg-color);
 }
 .nav-header {
   font-family: "Rowdies", cursive;
   font-size: 2.5rem;
+}
+/* button styles override */
+.btn-link{
+  display: inline-block;
+  border: 1px solid var(--txt-card); 
+}
+.intro-container .btn{
+  margin-top:1rem;
+  background-color: var(--theme9);
+  color: var(--bg-color);
+}
+.card>.btn{
+  background-color: var(--card-bg);
+  color: var(--txt-card);
+  letter-spacing: 2px;
 }
 
 img {
@@ -47,6 +63,33 @@ img {
   margin-top: 2rem;
 }
 
+/*  heading title*/
+.top-heading {
+  margin: 5rem;
+  position: relative;
+  line-height: 3.3rem;
+}
+.top-heading::after {
+  content: "";
+  background: var(--theme9);
+  width: 7rem;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* navbar list items */
+.nav-list>.list-item{
+  border:none;
+  font-size: 1.18rem;
+}
+.nav-list>.list-item:hover{
+  background-color:var(--card-bg);
+  font-size: 1.4rem;
+}
+
 /* overriding card style from component library */
 .card {
   border-color: lightgrey;
@@ -59,11 +102,4 @@ img {
 }
 .card-heading {
   font-family: "Abril Fatface", cursive;
-}
-/* overriding button style from component library */
-.category-component .btn {
-  background-color: var(--card-bg);
-  color: var(--txt-card);
-  border-color: var(--txt-card);
-  letter-spacing: 2px;
 }
