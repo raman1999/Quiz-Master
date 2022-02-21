@@ -20,6 +20,9 @@
   display: flex;
   justify-content: space-around;
 }
+.rules-btn-container>a:hover{
+  color:var(--theme1)
+}
 .btn {
   padding: 1rem;
 }

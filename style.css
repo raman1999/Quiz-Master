@@ -50,6 +50,9 @@ body,
   color: var(--txt-card);
   letter-spacing: 2px;
 }
+.btn:hover{
+  font-size: 1.1rem;
+}
 
 img {
   border-top-left-radius: 1rem;
